@@ -1,10 +1,57 @@
-element.style {
-  background: black;
-}
 body {
-display: block;
-margin: 8px;
-color: white;
-background: black;
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 100px;
+   
+}
+header{
+    border-bottom: solid 2px rgb(42,122,228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42,122,228)
+}
+.chamada {
+    background: rgb(112, 129, 152);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.chamada-texto {
+    margin-right: 5%;
+    font-family: "Playwrite HU", cursive;
+}
+img{
+    height: 200px;
+}
+.amv{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.amv-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.amv-videos img{
+    opacity: 0.5;
 
+}
+.amv-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid blue;
+    
+}
+.amv h2{
+    color: rgb(42,122,228)
+    
 }
